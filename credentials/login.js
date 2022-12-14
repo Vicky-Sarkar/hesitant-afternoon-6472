@@ -1,6 +1,6 @@
-//let singUp = JSON.parse(localStorage.getItem("singUpData")) || []
+
 let regdUser = JSON.parse(localStorage.getItem("singUpData")) || []
-console.log(regdUser)
+
 let loginData = JSON.parse(localStorage.getItem("login")) || []
 let formTag = document.getElementById("formTag")
 
@@ -19,10 +19,7 @@ function myFunction() {
 }
 
 
-let logout = document.getElementById("logout")
-logout.addEventListener("submit", () => {
-	localStorage.setItem("loginData", JSON.stringify(loginDataa))
-})
+
 
 
 
