@@ -1,6 +1,7 @@
 
 * {
-	font-size: Human BBY Digital, Human Fallback, Arial, Helvetica, sans-serif;
+	
+font-family: Human BBY Digital, Human Fallback, Arial, Helvetica, sans-serif;
 }
 
 #navbar{
@@ -10,9 +11,10 @@
 	
 	background-color: #0046be;
 	justify-content: space-around;
- overflow: hidden; 
+ 
  position: sticky;
 	top: 0; 
+	
 
 }
 
@@ -61,7 +63,8 @@
 #container{
 	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS79-KEboAl65eSzqeASrysOrZPQ7jNSggMcrZ3qmT8ngU48mnu");
 width: 100%;
-	height: 80.8rem;
+	 height: 80.8rem; 
+	
 }
 
 
@@ -78,3 +81,280 @@ border-bottom: 2px solid white;
 text-align: center;
 color:white;
 }
+
+/* /////////////////////////////////////////////////////////////// */
+
+#greatdils{
+	height: 10rem;
+	width: 80%;
+
+	margin: auto;
+	display: flex;
+	margin-top: 20px;
+	overflow: hidden;
+	
+}
+
+#greatdils>div{
+	height: 10rem;
+		width: 50%;
+
+	
+		justify-content: space-around;
+}
+
+
+#greatdils>div h1:nth-child(1){
+
+	font-size:70px;
+	 font-weight: 700; 
+	 color:  #ffffff;
+	 position: relative;
+	 bottom: 45px;
+}
+
+
+#greatdils>div h1:nth-child(2) {
+	
+	font-size: 40px;
+	font-weight: 600;
+	color: #fff200;
+	position: relative;
+	bottom:6rem;
+}
+
+#greatdils>div:nth-child(2)> h3{
+
+	font-size: 30px;
+	font-weight: 700;
+	color: #ffffff;
+	position: relative;
+	bottom: 30px;
+	left: 20px;
+}
+
+
+#greatdils>div:nth-child(2)>p {
+
+	font-size: 13px;
+	
+	color: #ffffff;
+	position: relative;
+	bottom: 45px;
+	left: 20px;
+}
+
+#greatdils>div:nth-child(2) a {
+
+text-decoration:none;
+	color: #fff200;
+	
+}
+
+#greatdils>div:nth-child(2) button {
+font-weight: bold;
+	padding: 6px 8px 6px 8px;
+	border-radius: 5px;
+	text-decoration: none;
+	background-color:#fff200 ;
+border:0px;
+position: relative;
+bottom: 40px;
+left: 20px;
+}
+
+
+#greatDilContainer{
+	display: grid;
+	
+	
+	grid-template-columns:repeat(6,1fr);
+	row-gap: 100px;
+	margin: auto;
+}
+
+#greatDilContainer>div {
+width: 150px;
+	height: 150px; 
+	border:3px solid #578af7;
+	 border-radius: 50%; 
+	background-color: white;
+}
+ #Image{
+	width: 55%;
+	border-radius: 5px;
+	position: relative;
+	top:35px;
+	left:30px;
+}
+#Image:hover {
+	cursor: pointer;
+	
+}
+
+#product{
+	text-align: center;
+ position: relative;
+	top: 90px; 
+
+	color:#fee001;
+	 
+}
+
+#container>p{
+	font-size: 18px;
+	color: #e0e6e8;
+	position: relative;
+	left: 10px;
+}
+
+
+
+
+
+.body {
+	 line-height: 1.5; 
+	font-family: 'Poppins', sans-serif;
+}
+
+
+
+.container-uni {
+	
+	margin: auto;
+}
+
+.top-row {
+	height: 200px;
+	width: 100%;
+	margin: auto;
+	margin-bottom: 50px;
+	display: flex;
+}
+
+.box {
+
+	height: 200px;
+	width: 20%;
+	text-align: center;
+}
+
+.icon {
+	font-size: 60px;
+	color: #70757d;
+	padding-top: 60px;
+}
+
+.link {
+	color: #0000f5;
+	text-decoration: none;
+
+}
+
+.p1 {
+	padding-top: 20px;
+	font-weight: 600;
+
+}
+
+.link:hover {
+	color: #0a0056;
+	text-decoration: underline;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+ul {
+	list-style: none;
+}
+
+.footer {
+	background-color: #f0f2f4;
+	padding: 70px;
+}
+
+.footer-col {
+	width: 25%;
+	padding: 0 15px;
+	margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+}
+
+.footer-col h4 {
+	font-size: 20px;
+	color: #000000;
+	line-height: 30px;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 650;
+	position: relative;
+}
+
+.footer-col h4::before {
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 1px;
+	box-sizing: border-box;
+	width: 100px;
+}
+
+.footer-col ul li:not(:last-child) {
+	margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+	font-size: 16px;
+	text-transform: capitalize;
+	color: blue;
+	text-decoration: none;
+	font-weight: 300;
+
+	display: block;
+	transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+	color: #0e0c0c;
+	padding-left: 8px;
+	text-decoration: underline;
+}
+
+.footer-col .social-links a {
+	display: inline-block;
+	height: 60px;
+	width: 60px;
+	background-color: rgba(80, 174, 144, 0.775);
+	margin: 0 10px 10px 0;
+	text-align: center;
+	line-height: 60px;
+	border-radius: 50%;
+	color: #1d1df0;
+	transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover {
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+#experience {
+	display: flex;
+	 margin-top: 80px; 
+	
+}
+
+.feedback {
+	color: #0000f5;
+}
+
+.feedback:hover {
+	color: #0a0056;
+}
+
