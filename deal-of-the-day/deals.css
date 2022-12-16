@@ -1,0 +1,174 @@
+#daysDeals{
+	
+height: 40rem;
+width: 100%;
+border:1px solid black;
+position: relative;
+top: 74px;
+}
+
+#area-location{
+	position: relative;
+	bottom:12px;
+}
+
+
+#daysDeals> div:nth-child(1){
+	    height: 10rem;
+		width: 100%;
+		
+		display: flex;
+			justify-content: space-around;
+}
+
+#daysDeals>div:nth-child(1) div:nth-child(1) {
+	height: 10rem;
+	width: 32%;
+	
+}
+
+#daysDeals>div:nth-child(1) div:nth-child(2) {
+	height: 10rem;
+	width: 30%;
+	
+}
+
+
+ .fa-magnifying-glass{
+	color:#1354c3;
+	position: relative;
+	right: 185px;
+	bottom: 10px;
+ }
+
+#area-location{
+
+}
+
+/* clock//////////////////////////////////////// */
+
+
+  #daysDeals>div:nth-child(1) div:nth-child(2) #clcok {
+	 display: flex;
+	 height: 80px;
+	 width: 200px;
+     background-color: white;
+	border-radius: 10px;
+}
+
+#daysDeals>div:nth-child(1) div:nth-child(2) #clcok  .cock-box{
+	 height: 70px; 
+	 width: 60px; 	
+}
+
+.cock-box>p:nth-child(1) {
+	text-align: center;
+	position: relative;
+	bottom: 23px;
+	font-family: "digital-clock-font";
+	font-family: 'Orbitron', sans-serif;
+font-size: 34px;
+
+}
+
+.cock-box>p:nth-child(2) {
+	text-align: center;
+	position: relative;
+	bottom: 55px;
+	font-family: "digital-clock-font";
+	font-family: 'Orbitron', sans-serif;
+	font-size: 14px;
+
+}
+
+
+
+
+
+/* ///////////////////////////////////////////////// */
+
+
+#daysDeals>div:nth-child(1) div:nth-child(1) h1{
+	color:white;
+}
+#day-deail-para {
+	color: white;
+	position: relative;
+	bottom: 10px;
+}
+#daysDeals>div:nth-child(1) div:nth-child(1) a {
+	color:#f6d56e;
+		position: relative;
+		bottom: 10px;
+		font: 13px;
+		text-decoration: none;
+}
+
+/* //////////////////////// */
+/* frist deal */
+
+#first-deal{
+	display: flex;
+	height: 400px;
+	width: 100%;
+	border:1px solid blue;
+background-color: white;
+}
+
+#first-deal>div:nth-child(1){
+height: 375px;
+	width: 28%;
+	/* border: 1px solid blue; */
+	position: relative;
+	 left:90px; 
+	top:25px;
+}
+
+#first-deal>div:nth-child(1) img {
+	
+	width: 100%;
+
+}
+
+#fist-deal-details{
+	height: 375px;
+		width: 58%;
+		border: 1px solid blue;
+position: relative;
+	left: 155px;
+	top: 25px;
+	}
+#fist-deal-details>a:nth-child(1){
+	text-decoration: none;
+}
+#fist-deal-details>a:nth-child(1):hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+#fist-deal-details>h5 {
+	color:#318004;
+}
+
+   
+
+ .fa-map-location{
+	background-color: white;
+ font-size: x-large;
+ color: rgb(65, 55, 55);
+}
+#fist-deal-details> p {
+	position: relative;
+	bottom: 35px;
+	left:40px;
+}
+
+#available-line{
+	position: relative;
+	bottom: 85px;
+	left: 100px;
+	font-size: 14px;
+	font-weight: 100;
+	line-height: 18px;
+	width: 195px;
+}

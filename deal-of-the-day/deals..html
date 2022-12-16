@@ -8,12 +8,17 @@
 
 	<title>Navbar</title>
 	<script src="https://kit.fontawesome.com/0e4c91e37e.js" crossorigin="anonymous"></script>
-	<link rel="stylesheet" href="navbar.css">
+	<link rel="stylesheet" href="../navbar/navbar.css">
+
+	<link rel="stylesheet" href="./deals.css">
 	<link rel="shortcut icon" type="image"
 		href="https://pisces.bbystatic.com/image2/BestBuy_US/Gallery/Favicon-152-72229.png">
+	<script src="https://kit.fontawesome.com/0e4c91e37e.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
+
 	<!-- day-3 -->
 	<div id="navbar">
 
@@ -29,19 +34,17 @@
 			</h2>
 		</div>
 		<div>
+
 			<input type="text" placeholder="Search Bust Buy">
+
 			<i class="fa fa-thin fa-magnifying-glass"></i>
+
 		</div>
-
-
-
-
-
 
 		<div>
 
 			<i class="fa -solid fa-map-location-dot"></i>
-			<h4>Aiea</h4>
+			<h4 id="area">Aiea</h4>
 
 		</div>
 
@@ -105,25 +108,86 @@
 		</div>
 
 
-		<div id="greatdils">
+
+
+		<div id="daysDeals">
 			<div>
 
-				<h1>Great Deals.</h1>
-				<h1>All in one place.</h1>
-			</div>
-			<div>
-				<h3>
-					Find new deals all season long.</h3>
-				<p>Limited quantities. No rainchecks. See <span><a
-							href="https://www.bestbuy.com/site/help-topics/best-buy-holiday-faqs/pcmcat748300621076.c?id=pcmcat748300621076">Holiday
-							FAQs</a></span> </p>
+				<div>
+					<h1>20 Days of Deals*</h1>
+					<p id="day-deail-para">Unwrap new deals every day. Ends December 18.</p>
+					<a href="#">See Deal of the Day FAQs</a>
+				</div>
+				<div>
+					<div id="clcok">
+						<div class="cock-box">
+							<p id="hour">0 </p>
+							<p>hours</p>
+						</div>
+						<div class="cock-box">
+							<p id="minute"> 0 </p>
+							<p>minutes</p>
+						</div>
 
-				<button>Shop Now</button>
+
+						<div class="cock-box">
+							<p id="second">0 </p>
+							<p>seconds</p>
+						</div>
+
+					</div>
+
+
+
+
+
+
+
+				</div>
+
 			</div>
+
+
+
+			<div id="first-deal">
+
+
+				<div>
+					<img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6451/6451476_sd.jpg;maxHeight=476;maxWidth=794"
+						alt="">
+
+				</div>
+
+
+				<div id="fist-deal-details">
+
+
+
+					<a href="#">
+						<p>Samsung - 65" Class Q70A Series QLED 4K UHD Smart Tizen TV</p>
+					</a>
+
+					<h5>Get it today</h5>
+
+					<i class="fa fa-light fa-map-location"></i>
+					<p>Pickup:</p>
+					<h6 id="available-line">Available today at Aiea Act Fast – Only 2 left at your store!</h6>
+
+
+
+
+
+
+
+
+				</div>
+
+
+
+			</div>
+
 		</div>
 
-		<p id="Shopdeals">Shop deals by category</p>
-		<div id="greatDilContainer"></div>
 
 	</div>
 
@@ -131,11 +195,6 @@
 
 
 
-
-
-
-
-	<!-- <body class="body"> -->
 	<footer class="footer">
 
 		<div class="container-uni">
@@ -253,6 +312,8 @@
 		</div>
 	</footer>
 </body>
-<script src="./navbar.js"></script>
+<script src="./deals.js">
+
+</script>
 
 </html>
