@@ -163,7 +163,7 @@ position: relative;
 	left:40px;
 }
 
-#available-line{
+.available-line{
 	position: relative;
 	bottom: 85px;
 	left: 100px;
@@ -171,4 +171,32 @@ position: relative;
 	font-weight: 100;
 	line-height: 18px;
 	width: 195px;
+}
+
+.available-line1 {
+	position: relative;
+	bottom: 188px;
+	left: 115px;
+	font-size: 14px;
+	font-weight: 100;
+	line-height: 18px;
+	width: 195px;
+}
+
+.fa-truck-pickup{
+background-color: white;
+	font-size: x-large;
+	color: rgb(65, 55, 55);
+	position: relative;
+	bottom: 90px;
+}
+
+#pickup-p{
+	display: block;
+position: relative;
+	bottom: 137px;
+	left: 39px;
+	font-weight: 300;
+	font-size: 16px;
+	
 }
