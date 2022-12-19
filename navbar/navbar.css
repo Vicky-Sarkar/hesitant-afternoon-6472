@@ -18,7 +18,12 @@ font-family: Human BBY Digital, Human Fallback, Arial, Helvetica, sans-serif;
 	
 
 }
+#deals-page{
 
+color: #e0e6e8;
+text-decoration: none;
+font-weight: 500;
+}
  .fa-magnifying-glass {
 	 position: relative;
 	 right:185px; 
@@ -70,12 +75,12 @@ width: 20px;
 	background-color: #fff200;
 	
 }
-/* #cart-item{
+#cart-item{
 	text-align: center;
 	position: relative;
 	
-		left: 10px; 
-} */
+		top: 1px; 
+}
 
 #navbar>div:nth-child(4) {
 
@@ -273,6 +278,31 @@ left: 20px;
 	margin: auto;
 }
 
+@media screen and (min-width: 400px) and (max-width:700px) {
+#greatDilContainer {
+		display: grid;
+
+
+		grid-template-columns: repeat(3, 1fr);
+		row-gap: 100px;
+		margin: auto;
+	}
+}
+
+
+@media screen and (min-width: 150px) and (max-width:401px) {
+	#greatDilContainer {
+		display: grid;
+
+
+		grid-template-columns: repeat(2, 1fr);
+		row-gap: 100px;
+		margin: auto;
+		
+		
+	}
+}
+
 #greatDilContainer>div {
 width: 150px;
 	height: 150px; 
@@ -281,8 +311,11 @@ width: 150px;
 	background-color: white;
 }
  #Image{
-	width: 55%;
-	border-radius: 5px;
+	 width: 55%;
+	border-radius: 2px; 
+	height: 5rem;
+
+
 	position: relative;
 	top:35px;
 	left:30px;
@@ -295,7 +328,7 @@ width: 150px;
 #product{
 	text-align: center;
  position: relative;
-	top: 90px; 
+	top: 60px; 
 
 	color:#fee001;
 	 
@@ -307,13 +340,6 @@ width: 150px;
 	position: relative;
 	left: 10px;
 }
-
-
-
-
-
-
-
 
 
 .container-uni {
@@ -473,25 +499,6 @@ ul {
 	bottom: 8px;
 	 left: 35px; 
  } 
-
-
-
-
-
-/* .column {
-	float: left;
-	width: 400px;
-	 padding: 10px; 
-	height: 350px;
-	border:1px solid red;
-} */
-
-/* .column a {
-	display: block;
-	float: none;
-	text-align: left;
-	line-height: 15px;
-} */
 
 .column h3 {
 	font-family: "Helvetica Neue",

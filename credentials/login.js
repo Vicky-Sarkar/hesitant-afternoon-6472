@@ -49,7 +49,9 @@ function loginFun() {
 	}
 	if (flag == true) {
 		alert("Login Sucess");
-		window.location.href = "https://masaischool.com/courses/full-stack-web-dev-full-time/";
+		window.location.href = "../navbar/navbar.html";
+		//window.location.replace("/navbar/navbar.html")
+		//window.location.assign("navbar/navbar.html")
 		localStorage.setItem("login", JSON.stringify(loginData))
 	}
 	else {
