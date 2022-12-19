@@ -1,0 +1,214 @@
+* {
+
+	font-family: Human BBY Digital, Human Fallback, Arial, Helvetica, sans-serif;
+}
+body{
+	background-color: #f0f2f4;
+}
+
+#your-order{
+position: relative;
+left: 7rem;
+
+}
+#checkout-nav{
+	font-weight: 100;
+	font-size: 30px;
+	height: 40px;
+color:white;
+
+position: relative;
+right:16rem;
+bottom: 13px;
+}
+
+#main-container{
+	display: flex;
+width: 100%;
+height: 30rem;
+border:1px solid red;
+margin: auto;
+}
+
+#contact-information{
+     width: 65%;
+	height: 30rem;
+/* border: 1px solid red; */
+	/* margin: auto; */
+}
+
+#order-summary{
+width: 45%;
+	height: 30rem;
+	 border: 1px solid red; 
+	
+}
+
+#num{
+	width: 70%;
+	position: relative;
+	 right:6.2rem; 
+	 height: 28px;
+	 border: 1px solid blue;
+}
+
+#checkobx{
+width: 100%;
+height: 20px;
+
+position: relative;
+top:40px;
+}
+
+
+#cbox{
+width: 10%;
+	height: 15px;
+	position: relative;
+		bottom: 47px;
+		right: 21rem;
+}
+
+#text-updates {
+	position: relative;
+	bottom: 10px;
+	left: 20px;
+}
+#continue-to-payment{
+
+		width: 70%;
+		height: 40px;
+	
+		position: relative;
+		top: 45px;
+		border-radius: 5px;
+		background-color: #0046be;
+	}
+
+		#continue-to-payment>a {
+			color: white;
+			position: relative;
+				 top: 8px; 
+				text-decoration: none;
+		}
+
+				#order-summary>h4{
+					text-align: center;
+				}
+
+
+
+
+
+#cart-total {
+	position: relative;
+	bottom: 0.9rem;
+
+}
+
+#seveing-total {
+	position: relative;
+	bottom: 0.9rem;
+
+}
+
+#tax-total {
+	position: relative;
+	bottom: 0.9rem;
+
+}
+	
+				
+
+
+								.comnline {
+									width: 90%;
+									border: 0.1px solid #c3c5c8;
+				
+									height: 0.1px;
+									margin: auto;
+									position: relative;
+									bottom: 20px;
+								}
+				
+				
+				
+								.sacondline {
+									bottom: 7px;
+								} 
+				
+				
+								.orginal-price {
+									display: flex;
+									justify-content: space-between;
+									width: 90%;
+									 /* border: 0.1px solid #c3c5c8; */
+									height: 20px;
+									margin: auto;
+									position: relative;
+									bottom: 20px;
+									margin-top: 10px;
+								}
+				
+								.orginal-price>div {
+									width: 40%;
+									 /* border: 0.1px solid #c3c5c8;  */
+									height: 20px;
+								}
+				
+								#check-out {
+									height: 35px;
+									width: 40%;
+									/* border: 1px solid red; */
+									background-color: #fee001;
+									margin: auto;
+									position: relative;
+									top: 20px;
+									border-radius: 3px;
+				
+								}
+				
+								#check-out>a {
+									text-align: center;
+									text-decoration: none;
+									position: relative;
+									top: 8px;
+									color: black;
+				
+								}
+				
+								#check-out a:hover {
+									cursor: pointer;
+									background-color: #fdf220;
+				
+								}
+				
+				
+				
+				
+								#pay-pal {
+									height: 35px;
+									width: 40%;
+									/* border: 1px solid red; */
+									background-color: #1d252c;
+									margin: auto;
+									position: relative;
+									top: 20px;
+									border-radius: 3px;
+				
+								}
+				
+								#pay-pal>a {
+									text-align: center;
+									text-decoration: none;
+									position: relative;
+									top: 8px;
+									color: white;
+				
+								}
+				
+								#pay-pal a:hover {
+									cursor: pointer;
+									background-color: #fdf220;
+				
+								}
