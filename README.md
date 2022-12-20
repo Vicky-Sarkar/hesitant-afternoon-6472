@@ -11,7 +11,7 @@ Blog link: https://medium.com/@pallaveeratnakar1714/adde80145794
 
 
 
-- Tech Stack
+#### Tech Stack
 HTML
 CSS
 Javascript(DOM Manipulation ,Local Storage)
