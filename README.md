@@ -4,7 +4,7 @@ As part of our group project in Unit 2 at Masai School, we were given to build t
 
 Original website link: https://www.bestbuy.com/
 
-Netlify link of our project: https://fanciful-unicorn-61bc77.netlify.app/
+Netlify link of our project: [https://fanciful-unicorn-61bc77.netlify.app/](https://unique-rabanadas-af6960.netlify.app/)
 
 Blog link: https://medium.com/@pallaveeratnakar1714/adde80145794
 
