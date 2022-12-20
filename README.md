@@ -12,13 +12,13 @@ Blog link: https://medium.com/@pallaveeratnakar1714/adde80145794
 
 
 #### Tech Stack
-HTML
-CSS
-Javascript(DOM Manipulation ,Local Storage)
-Bootstrap (CSS Framework)
-jQuery(Javascript library)
-Pages built
-Home Page: containing navbar, products, footer.
+- HTML
+- CSS
+- Javascript(DOM Manipulation ,Local Storage)
+-  Fatch Api
+
+
+-  <h4>Home Page:</h4> containing navbar, products, footer.
 Create Account: For creating an account.
 Sign in: For signing in to your account.
 Top Deals: For checking out the top deals of the website.
