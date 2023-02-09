@@ -12,7 +12,10 @@ Netlify link of our project: [https://fanciful-unicorn-61bc77.netlify.app/](http
 - CSS
 - Javascript(DOM Manipulation ,Local Storage)
 -  Fatch Api
--  <h4>Home Page:</h4> - containing navbar, - products, - footer.
+-  <h4>Home Page:</h4>
+- containing navbar
+- products
+- footer.
 Create Account: For creating an account.
 Sign in: For signing in to your account.
 Top Deals: For checking out the top deals of the website.
