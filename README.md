@@ -15,7 +15,7 @@ Netlify link of our project: [https://fanciful-unicorn-61bc77.netlify.app/](http
 -  <h4>Home Page:</h4>
 - containing navbar
 - products
-- footer.
+- footer
 
 Create Account: For creating an account.
 Sign in: For signing in to your account.
