@@ -4,7 +4,7 @@ As part of my solo  project in Unit 2 at Masai School, I was assigned to build t
 
 Original website link: https://www.bestbuy.com/
 
-Netlify link of our project: [https://fanciful-unicorn-61bc77.netlify.app/](https://unique-rabanadas-af6960.netlify.app/)
+Netlify link of our project: [https://fanciful-unicorn-61bc77.netlify.app/](https://clinquant-gingersnap-a302cd.netlify.app/credentials/login.html)
 
 
 #### Tech Stack
