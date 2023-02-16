@@ -17,11 +17,4 @@ Netlify link of our project: [https://fanciful-unicorn-61bc77.netlify.app/](http
 - products
 - footer
 
-Create Account: For creating an account.
-Sign in: For signing in to your account.
-Top Deals: For checking out the top deals of the website.
-Cart: Items added to cart will be visible here.
-Shipping page: For filling the shipping address.
-Payments page: For filling details of payment.
-Last page: Wishing buyer "Thank you for shopping with us".
-Screenshots
+
