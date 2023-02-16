@@ -10,7 +10,7 @@ Netlify link of our project: [https://fanciful-unicorn-61bc77.netlify.app/](http
 #### Tech Stack
 - HTML
 - CSS
-- Javascript(DOM Manipulation ,Local Storage)
+- JavaScript(DOM Manipulation ,Local Storage)
 -  Fatch Api
 -  <h4>Home Page:</h4>
 - containing navbar
